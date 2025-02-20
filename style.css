@@ -1,6 +1,8 @@
 body {
     color: gray;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    font-weight:430;
 }
 
 
@@ -20,8 +22,9 @@ nav {
 
 .logo {
     margin-left: 20%;
-    height: 240px;
-    width: 400px;
+    height: 200px;
+    width: 350px;
+    margin-right: 50px;
 }
 
 ul {
@@ -72,28 +75,97 @@ hr {
     margin-top: 75px;
 }
 
-.article {
+/* .article {
     display: flex;
     width: 100%;
     height: 170px;
-}
+} */
 
 .box {
     display: flex;
+    justify-content: space-around;
     width: 100%;
-    justify-content: center;
     height: 250%;
+    margin-left: 10%;
+    gap:20px;
 }
 
 .carre {
     border: 1px ridge black;
-    width: 200px;
-    height: 300px;
-    margin-right: 60%;
+    width: 260px;
+    height: 382px;
     margin-top: 60px;
+    
+
+    
 }
 
 .color {
     color: orange;
     margin-left: 10px;
+}
+
+.center {
+    margin-left: 32px;
+}
+
+.lire {
+   margin-left: 20px;
+   text-decoration: none;
+   color: gray;
+}
+
+.h5 {
+    margin-left: 10px;
+}
+
+.droit {
+    display: flex;
+   justify-content: space-between;
+
+}
+
+.acc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 25%;
+}
+
+h3 {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 550;
+  
+}
+
+.photos {
+    border: 1px solid rgb(211, 204, 204);
+    padding:5px;
+    box-shadow: 0px 0px 12px 0px rgb(163, 163, 184) ;
+    display: flex;
+    
+}
+
+.emanuel {
+    display: flex;
+}
+
+#raccourci {
+    width: 60%;
+}
+
+.commentaire {
+    width: 50%;
+}
+
+.bac {
+    background-image: url(images/grille.png);
+    background-image: 20px;
+    height: 170px;
+}
+
+.b as {
+    display: flex;
+    justify-content: center;
+
 }
